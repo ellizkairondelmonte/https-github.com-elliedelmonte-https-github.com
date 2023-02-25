@@ -1,0 +1,287 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+    }
+   
+    header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+    }
+   
+    nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    }
+   
+    nav li {
+  display: inline-block;
+  margin-right: 20px;
+    }
+   
+    nav a {
+  color: #fff;
+  text-decoration: none;
+    }
+   
+    main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+    }
+   
+    .banner {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 20px;
+    }
+   
+    .banner h2 {
+  font-size: 36px;
+    }
+   
+    .banner p {
+  font-size: 24px;
+    }
+   
+    .btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+    }
+    .featured{
+  text-align: center;
+    }
+   
+   
+    .products {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+    }
+   
+    .product1 {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  align-items: center;
+    margin: auto;
+   
+   
+  
+    }
+    .responsive1 {
+  width: 100%;
+  height: auto;
+    }
+    .jacket{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+   
+  
+  .product2{
+      width: 33%;
+      text-align: center;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding: 10px;
+      align-items: center;
+      margin: auto;
+  
+    }
+    .shirts{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .responsive2 {
+  width: 100%;
+  height: auto;
+    }
+   
+    .product3 {
+      width: 33%;
+      text-align: center;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding: 10px;
+      align-items: center;
+      margin: auto;
+  }
+  .responsive3 {
+  width: 100%;
+  height: auto;
+    }
+    .bag{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+   
+  .product4 {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  align-items: center;
+    margin: auto;
+  }
+  .responsive4 {
+  width: 100%;
+  height: auto;
+    }
+    .pant{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+   
+    .product img{
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+    }
+   
+   
+    .product h3 {
+  font-size: 24px;
+  
+    }
+    * {box-sizing: border-box}
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  
+    .footer{
+  text-align: center;
+  background-color: whitesmoke;
+    }
+  
+    .p1{
+      display: flex;
+    }
+    .p2{
+      display: flex;
+    }
+  
